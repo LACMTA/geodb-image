@@ -30,3 +30,10 @@ To use this image, you can use the following Dockerfile:
 FROM lacmta/geodb-base:latest
 ```
 
+You can also pull the image directly from Docker Hub and run it:
+
+```bash
+docker run -it lacmta/geodb-base:latest
+```
+
+
