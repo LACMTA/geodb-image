@@ -5,7 +5,7 @@ FROM python:3.8-slim-buster
 RUN apt-get update
 
 # Install necessary packages for PostgreSQL and GDAL
-RUN apt-get install -y libpq-dev python3-dev libgdal-dev
+RUN apt-get install -y libpq-dev python3-dev libgdal-dev wget
 
 # Set the working directory in the container
 WORKDIR /app
